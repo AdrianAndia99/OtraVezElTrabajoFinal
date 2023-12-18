@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected SpriteRenderer spriteRenderer;
     [SerializeField] protected AudioSource _audio;
     [SerializeField] protected BoxCollider2D boxCollider;
-     protected float velocity = 2;
+    float velocity = 2;
 
     private float direccionJugador;
     protected Transform positionPlayer;  
