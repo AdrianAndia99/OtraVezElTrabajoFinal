@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Enemy : MonoBehaviour
 {
     [Header("Yo y los seralize field")]
@@ -10,7 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected SpriteRenderer spriteRenderer;
     [SerializeField] protected AudioSource _audio;
     [SerializeField] protected BoxCollider2D boxCollider;
-     protected float velocity;
+     protected float velocity = 2;
 
     private float direccionJugador;
     protected Transform positionPlayer;  
